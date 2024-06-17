@@ -51,14 +51,18 @@ body {
  }
  
  .register-form button {
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    background-color: #333;
-    color: #888888;
-    height: 50px;
-    flex: 0 0 30%;
+     width: 216px;
+     height: 64px;
+     top: 411px;
+     left: 496px;
+     padding: 10px;
+     font-size: 16px;
+     border: none;
+     border-radius: 8px;
+     background-color: #333;
+     color: #888888;
+     height: 50px;
+     flex: 0 0 30%;
  }
  
  .register-form button:hover {
