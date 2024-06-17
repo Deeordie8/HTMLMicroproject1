@@ -145,13 +145,7 @@ body {
         padding: 20px;
     }
  
-    footer .about {
-      align-items: left;
-      text-align: center;
-    }
-    
-    
-    footer .address {
+    footer .about,footer .address {
         align-items: center;
         text-align: center;
     }
