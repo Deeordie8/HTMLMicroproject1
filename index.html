@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Design</title>
+<style>
+  /* Add your Vanilla CSS here */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .split-background {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left-side {
+    background-color: #d2b48c; /* dark beige */
+    color: white;
+    flex-basis: 50%;
+    padding: 20px;
+  }
+  .right-side {
+    background-color: #f5f5dc; /* light beige */
+    flex-basis: 50%;
+    padding: 20px;
+  }
+  @media (max-width: 768px) {
+    .left-side, .right-side {
+      flex-basis: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="split-background">
+  <div class="left-side">
+    <p>An inspiring design delivered to your inbox every fortnight.</p>
+    <p>Our team scours the internet for the best designs, illustrations and art and delivers a truly inspiring show every day to your inbox.</p>
+    <p>One eye on how it looks</p>
+    <input type="email" placeholder="Your e-mail address">
+    <button>Register Now</button>
+  </div>
+  <div class="right-side">
+    <!-- Add your illustration here -->
+    <div class="footer">
+      <div>Prompt Generator</div>
+      <div>Developed by</div>
+      <div>Made with love in India</div>
+      <!-- Add bullet points as needed -->
+    </div>
+  </div>
+</div>
+
+<!-- Add footer content here -->
+
+</body>
+</html>
